@@ -1,12 +1,14 @@
 # LocalSemanticKernel
 
 ## Overview
-`LocalSemanticKernel` allows you to easily use models running in LocalAI with SemanticKernel and DotNet.
+`LocalSemanticKernel` allows you to easily use models running in LocalAI with SemanticKernel and DotNet.  It was written because of issues using the OpenAI/AzureOpenAI SemanticKernel connectors with models hosted locally with LocalAI.
 
 This package currently provides support for the following services:
 * [IChatCompletionService](https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel.chatcompletion.ichatcompletionservice?view=semantic-kernel-dotnet)
 * [ITextGenerationService](https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel.textgeneration.itextgenerationservice?view=semantic-kernel-dotnet)
 * [ITextEmbeddingGenerationService](https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel.embeddings.itextembeddinggenerationservice?view=semantic-kernel-dotnet)
+
+**Note:** This package is not currently intended for production use.  It works good enough for local development purposes.
 
 ## Installation
 
