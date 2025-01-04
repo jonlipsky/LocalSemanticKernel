@@ -6,13 +6,13 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Local.SemanticKernel.Connectors.Model;
+using LocalSemanticKernel.Connectors.Model;
 using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.TextGeneration;
 
-namespace Local.SemanticKernel.Connectors;
+namespace LocalSemanticKernel.Connectors;
 
 /// <summary>
 /// A chat completion service that talks to LocalAI

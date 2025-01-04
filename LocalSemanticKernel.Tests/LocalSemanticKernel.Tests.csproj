@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Local.SemanticKernel\Local.SemanticKernel.csproj" />
+      <ProjectReference Include="..\LocalSemanticKernel\LocalSemanticKernel.csproj" />
     </ItemGroup>
 
 </Project>

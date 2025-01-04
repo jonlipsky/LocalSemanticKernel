@@ -1,6 +1,6 @@
 using Microsoft.SemanticKernel;
 
-namespace Local.SemanticKernel.Connectors;
+namespace LocalSemanticKernel.Connectors;
 
 /// <summary>
 /// The settings for executing a prompt locally

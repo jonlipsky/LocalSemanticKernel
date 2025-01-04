@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Local.SemanticKernel.Connectors;
+namespace LocalSemanticKernel.Connectors;
 
 /// <summary>
 /// A custom HttpMessageHandler that can be used to intercept and modify requests

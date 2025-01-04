@@ -3,16 +3,16 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>12</LangVersion>
-    <RootNamespace>Local.SemanticKernel</RootNamespace>
+    <RootNamespace>LocalSemanticKernel</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <Version>1.0.0</Version>
     <Authors>Jon Lipsky</Authors>
     <Description>Connectors to use models hosted in LocalAI with SemanticKernel on DotNet.</Description>
-    <RepositoryUrl>https://github.com/jonlipsky/Local.SemanticKernel</RepositoryUrl>
+    <RepositoryUrl>https://github.com/jonlipsky/LocalSemanticKernel</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/jonlipsky/Local.SemanticKernel</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/jonlipsky/LocalSemanticKernel</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>

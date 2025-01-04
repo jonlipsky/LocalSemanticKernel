@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace Local.SemanticKernel.Connectors.Model;
+namespace LocalSemanticKernel.Connectors.Model;
 
 /// <summary>
 /// The request to send to the chat API

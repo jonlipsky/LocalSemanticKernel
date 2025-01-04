@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Local.SemanticKernel.Connectors.Model;
+namespace LocalSemanticKernel.Connectors.Model;
 
 // ReSharper disable once ClassNeverInstantiated.Global
 public class Choice

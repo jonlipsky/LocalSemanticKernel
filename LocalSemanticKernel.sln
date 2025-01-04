@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.SemanticKernel", "Local.SemanticKernel\Local.SemanticKernel.csproj", "{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalSemanticKernel", "LocalSemanticKernel\LocalSemanticKernel.csproj", "{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.SemanticKernel.Tests", "Local.SemanticKernel.Tests\Local.SemanticKernel.Tests.csproj", "{BFD87601-B20D-40E2-92DB-B910D1E72162}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalSemanticKernel.Tests", "LocalSemanticKernel.Tests\LocalSemanticKernel.Tests.csproj", "{BFD87601-B20D-40E2-92DB-B910D1E72162}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{0CEFE36F-23C2-421D-ADD3-9CCC6011A5C7}"
 	ProjectSection(SolutionItems) = preProject

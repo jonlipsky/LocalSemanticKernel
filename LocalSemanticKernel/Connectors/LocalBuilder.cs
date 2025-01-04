@@ -7,9 +7,10 @@ using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Embeddings;
 using Microsoft.SemanticKernel.TextGeneration;
+
 #pragma warning disable SKEXP0001
 
-namespace Local.SemanticKernel.Connectors;
+namespace LocalSemanticKernel.Connectors;
 
 /// <summary>
 /// A class that provides extension methods for adding local services to the kernel.

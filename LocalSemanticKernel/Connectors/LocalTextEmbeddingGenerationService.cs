@@ -6,13 +6,14 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Local.SemanticKernel.Connectors.Model;
+using LocalSemanticKernel.Connectors.Model;
 using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Embeddings;
+
 #pragma warning disable SKEXP0001
 
-namespace Local.SemanticKernel.Connectors;
+namespace LocalSemanticKernel.Connectors;
 
 /// <summary>
 /// A text embedding generation service that talks to LocalAI

@@ -1,4 +1,4 @@
-using Local.SemanticKernel.Connectors;
+using LocalSemanticKernel.Connectors;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Embeddings;

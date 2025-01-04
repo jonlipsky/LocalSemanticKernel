@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Local.SemanticKernel.Connectors.Model;
+namespace LocalSemanticKernel.Connectors.Model;
 
 public class EmbeddingData
 {

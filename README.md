@@ -1,7 +1,7 @@
-# Local.SemanticKernel
+# LocalSemanticKernel
 
 ## Overview
-`Local.SemanticKernel` allows you to easily use models running in LocalAI with SemanticKernel and DotNet.
+`LocalSemanticKernel` allows you to easily use models running in LocalAI with SemanticKernel and DotNet.
 
 This package currently provides support for the following services:
 * [IChatCompletionService](https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel.chatcompletion.ichatcompletionservice?view=semantic-kernel-dotnet)
@@ -13,12 +13,12 @@ This package currently provides support for the following services:
 To install the package, you can use the following command from the directory that contains your project file:
 
 ```bash
-dotnet add package Local.SemanticKernel
+dotnet add package LocalSemanticKernel
 ```
 
 ## Usage
 
-To use `Local.SemanticKernel` within an ASP.net web application, you need to add the following code to your `Program.cs` file:
+To use `LocalSemanticKernel` within an ASP.net web application, you need to add the following code to your `Program.cs` file:
 
 ```csharp
 builder
@@ -28,7 +28,7 @@ builder
         modelId: "llama-3.2-3b-instruct:q4_k_m");
 ```
 
-To use `Local.SemanticKernel` with Kernel Memory for RAG scenarios, you need to add the following code to your `Program.cs` file:
+To use `LocalSemanticKernel` with Kernel Memory for RAG scenarios, you need to add the following code to your `Program.cs` file:
 
 ```csharp
 builder.Services.AddKernelMemory<MemoryServerless>(memoryBuilder =>
@@ -55,7 +55,7 @@ builder.Services.AddKernelMemory<MemoryServerless>(memoryBuilder =>
 
 **Note:** You need to replace the `modelId` with the id of the actual model you want to use.
 
-To use `Local.SemanticKernel` in a console application, you could do the following:
+To use `LocalSemanticKernel` in a console application, you could do the following:
 
 ```csharp
 var builder = Kernel.CreateBuilder()
