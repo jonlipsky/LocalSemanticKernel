@@ -1,0 +1,42 @@
+name: Nuget
+
+on:
+  push:
+    branches: [ "nuget" ]
+  pull_request:
+    branches: [ "nuget" ]
+
+jobs:
+  build:
+    
+    env:
+      BUILD_CONFIG: 'Release'
+      SOLUTION: 'Local.SemanticKernel.sln'
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@v2
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build $SOLUTION --configuration $BUILD_CONFIG --no-restore
+
+      - name: Test
+        run: dotnet test /p:Configuration=$BUILD_CONFIG --no-restore --no-build --verbosity normal
+
+      - name: Pack
+        run: dotnet pack --configuration $BUILD_CONFIG
+
+      - name: Publish
+        run: nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_APIKEY}}

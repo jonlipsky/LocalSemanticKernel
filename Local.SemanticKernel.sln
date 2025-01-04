@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.SemanticKernel.Connectors", "Local.SemanticKernel.Connectors\Local.SemanticKernel.Connectors.csproj", "{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.SemanticKernel.Connectors.Tests", "Local.SemanticKernel.Connectors.Tests\Local.SemanticKernel.Connectors.Tests.csproj", "{BFD87601-B20D-40E2-92DB-B910D1E72162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{0CEFE36F-23C2-421D-ADD3-9CCC6011A5C7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		ci.yml = .github/workflows/ci.yml
+		nuget.yml = .github/workflows/nuget.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AC243D-07B5-4A23-9FA7-AD563B87B5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD87601-B20D-40E2-92DB-B910D1E72162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD87601-B20D-40E2-92DB-B910D1E72162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD87601-B20D-40E2-92DB-B910D1E72162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD87601-B20D-40E2-92DB-B910D1E72162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
