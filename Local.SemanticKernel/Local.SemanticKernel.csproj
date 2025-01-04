@@ -3,7 +3,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>12</LangVersion>
-    <RootNamespace>Local.SemanticKernel.Connectors</RootNamespace>
+    <RootNamespace>Local.SemanticKernel</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
